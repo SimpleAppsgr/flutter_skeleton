@@ -1,0 +1,17 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+
+  rules:
+    prefer_const_constructors: false
+
+    # STYLE
+    camel_case_types: true
+    camel_case_extensions: true
+    library_names: true
+    file_names: true
+    library_prefixes: true
+    non_constant_identifier_names: true
+    directives_ordering: true
+    lines_longer_than_80_chars: true # avoid
+    curly_braces_in_flow_control_structures: true
